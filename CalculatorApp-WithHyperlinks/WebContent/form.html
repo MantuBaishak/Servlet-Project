@@ -1,0 +1,51 @@
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css">
+ </head>
+
+<body>
+ <div>
+<h1 style="color:black">CalculatorApp::With SubmitForms and Hyperlink</h1>
+ </div>
+
+<form action="calcurl" method="POST">
+ <table border="0" align="center">
+ <tr>
+ <td>Value1::</td>
+ <td><input type="number" name="t1" value="0" placeholder="Enter Value1"></td>
+ </tr>
+ 
+ <tr>
+ <td>Value2::</td>
+ <td><input type="number" name="t2" value="0" placeholder="Enter Value2"></td>
+ </tr>
+ 
+ <tr>
+ <td align="center" colspan="2" id="orange">
+ <button type="submit" name="s1" value="Add">Add</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <button type="submit" name="s1" value="Sub">Sub</button>
+ </td>
+ </tr>
+ 
+  <tr>
+ <td align="center" colspan="2">
+ <button type="submit" name="s1" value="Mul">Mul</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <button type="submit" name="s1" value="Div">Div</button>
+ </td>
+ 
+ </tr>
+ <tr>
+ <td align="center" colspan="2"><a href="calcurl?s1=link1">Get Current Day Of The Year</a>
+ </td>
+ </tr>
+ <tr>
+ <td align="right" colspan="2"><a href="calcurl?s1=link2">Get Current Week Number Of The Year</a></td>
+ </tr>
+ 
+ </table>
+
+</form>
+</body>
+</html>

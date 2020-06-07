@@ -1,0 +1,27 @@
+
+
+<h1 style="color:red;text-align:center">HtMl To SerVlet Using JavaScript</h1>
+
+ <form name="frm" action="countryurl" method="POST">
+  <table>
+   <tr>
+    <td>Select Country::</td>
+    <td>
+     <select name="country" onchange="send()">
+      <option value="" selected>--select a value--</option>
+      <option value="0">India</option>
+      <option value="1">PakiStan</option>
+      <option value="2">ChiNa</option>
+      <option value="3">USA</option>
+      <option value="4">SriLanka</option>
+     </select>
+     </td>
+   </tr>
+ </table>
+</form>
+
+<script language="JavaScript">
+function send(){
+frm.submit();	
+}
+</script>

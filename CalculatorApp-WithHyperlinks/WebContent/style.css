@@ -1,0 +1,29 @@
+
+body{
+	background-image:url("images/background.jpg");
+}
+h1{
+	font-family:"Comic Sans MS",sans-serif;
+	text-align:center;
+	box-shadow:0 0 10px black;
+	border-radius:50%;
+}
+ table{
+	background-color:#16dee9;
+	padding:10px;
+	box-shadow:0 0 10px #000000;
+	border-radius:10px;
+}
+th, td{
+	padding:10px;
+}
+ button{
+    border:none;
+    color:#ffffff;
+	padding:15px 20px;
+	border-radius:50%;
+	text-decoration:bold;
+	cursor:pointer;
+	box-shadow:0 0 10px black;
+	background-color:crimson;
+}
