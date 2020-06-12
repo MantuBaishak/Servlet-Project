@@ -1,0 +1,115 @@
+
+<head>
+  <link rel="stylesheet" href="style.css">
+ </head>
+<body bgcolor="darkgreen">
+
+ <h1 style="color:darkblue;text-align:center">HtMl To SerVlet Communication Using All Form CoMps</h1>
+  <form action="registerurl" method="POST">
+   <table border="0" bgcolor="darkseagreen" align="center">
+    <tr>
+     <td>Name::</td>
+     <td><input type="text" name="name" required></td>
+    </tr>
+    <tr>
+     <td>Age::</td>
+     <td><input type="password" name="age" required></td>
+    </tr>
+    <tr>
+     <td>Address::</td>
+     <td><textarea name="addrs" rows="5" cols="20" required></textarea></td>
+    </tr>
+    <tr>
+     <td>Gender::</td>
+     <td><input type="radio" name="gender" value="M">Male
+         <input type="radio" name="gender" value="F" checked>Female</td>
+    </tr>
+    <tr>
+     <td>PhoneNumber::</td>
+     <td><input type="tel" name="phone" required></td>
+    </tr>
+    <tr>
+     <td>MariTal Status::</td>
+     <td><input type="checkbox" name="ms" value="married">Married
+         <input type="checkbox" name="ms" value="single">Single</td>
+    </tr>
+    <tr>
+     <td>Qualification::</td>
+     <td><select name="qlfy">
+         <option value="">--select a value--</option>
+         <option value="arts">B.A/M.A</option>
+         <option value="commerce">B.Com/M.Com</option>
+         <option value="science">B.Sc/M.Sc</option>
+         <option value="engineer">B.Tech/B.E</option>
+         <option value="computerApplication">BCA/MCA</option>
+     </select></td>
+    </tr>
+    <tr>
+     <td>Courses::</td>
+     <td><select name="crs">
+         <option value="dotNet">DotNet Package</option>
+         <option value="java" selected>Java Package</option>
+         <option value="python">PyThon Package</option>
+         <option value="database">Oracle</option>
+         <option value="ui">UI Technology</option>
+     </select></td>
+    </tr>
+    <tr>
+     <td>Hobbies::</td>
+     <td><input type="checkbox" name="hb" value="reading">Reading Books
+         <input type="checkbox" name="hb" value="chating">Social Media
+         <input type="checkbox" name="hb" value="sleeping">Meditation Books
+         <input type="checkbox" name="hb" value="watching">Watching TV</td>
+    </tr>
+    <tr>
+     <td>FaceBook URL::</td>
+     <td><input type="url" name="fbUrl"/></td>
+    </tr>
+    <tr>
+     <td>Date of Birth::</td>
+     <td><input type="date" name="dob"/></td>
+    </tr>
+    <tr>
+     <td>Date Time of Birth::</td>
+     <td><input type="datetime-local" name="dobLocal"/></td>
+    </tr>
+    
+    <tr>
+     <td>Month of Birth::</td>
+     <td><input type="month" name="month"/></td>
+    </tr>
+    <tr>
+     <td>Week Day of Birth::</td>
+     <td><input type="week" name="week"/></td>
+    </tr>
+    <tr>
+     <td>Email ID::</td>
+     <td><input type="email" name="email" required/></td>
+    </tr>
+    <tr>
+     <td>FavouRite Color::</td>
+     <td><input type="color" name="color"/></td>
+    </tr>
+    <tr>
+     <td>Salary Range::</td>
+     <td><input type="range" name="salaryRange" min="10000" max="100000" title="Enter between 10k to 100k"/></td>
+    </tr>
+    <tr>
+     <td>Pin Code::</td>
+     <td><input type="text" name="pin" required/></td>
+    </tr>
+    <tr>
+     <td>Search Words::</td>
+     <td><input type="search" name="searchWords"></td>
+    </tr>
+    <tr>
+     <td align="center" colspan="2">
+     <button type="submit" name="register">register</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <button type="reset" name="cancel">cancel</button>
+     </td>
+    </tr>
+   </table>
+
+  </form>
+
+</body>
